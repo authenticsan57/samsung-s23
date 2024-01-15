@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px;
+    
+}
+.screen{
+    width: 320px;
+    height: 620px;
+    background-color: white;
+    border-radius: 5px;
+     
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6610f2;
+    padding-top: 20px;
+    height: 50vh;
+}
+.info .solde span{
+
+    font-size: 2.5em;
+    font-weight: 600;
+    color: white;
+}
+.info .card img{
+    border-radius: 20px;
+}
+.screen .info .bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.screen .info .bar img{
+    height: 30px;
+}
+.bar .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.bar .left .left-text span{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #3333ff;
+}
+.bar .mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.bar .mid .mid-text span{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #ff8000;
+}
+.bar .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+.bar .right .right-text span{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #0099cc;
+}
+.screen .exchange{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.screen .exchange span{
+    color: #6610f2;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.screen .exchange .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.screen .exchange .left-high{
+    margin-bottom: 5px;
+}
+.screen .exchange .left-low p{
+    opacity: 0.7;
+    font-size: 0.8em;
+
+}
+.screen .navtools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen .navtools img{
+    height: 30px;
+    margin-top: 178px;
+}
+a:hover{
+    opacity: 0.6;
+}

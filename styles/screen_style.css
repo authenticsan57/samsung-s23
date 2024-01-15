@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px;
+   
+}
+a{
+    text-decoration: none;
+}
+.screen{
+    width: 320px;
+    height: 620px;
+    border-radius: 5px;
+    background-image: url(https://images.pexels.com/photos/9498775/pexels-photo-9498775.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.time span{
+
+    color: white;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 4.5em;
+    font-weight: 500;
+}
+.screen .msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 370px;
+}
+.screen .msg p{
+    color: white;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    opacity: 0.8;
+}
